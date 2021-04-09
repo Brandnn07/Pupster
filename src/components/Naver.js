@@ -9,7 +9,7 @@ function Naver(props) {
     <Navbar.Brand href="/about">Pupster</Navbar.Brand>
     <Nav className="mr-auto">
       <Nav.Link href="/about">About</Nav.Link>
-      <Nav.Link href="/discoveries">Discoveris</Nav.Link>
+      <Nav.Link href="/discover">Discover</Nav.Link>
       <Nav.Link href="/search">Search</Nav.Link>
     </Nav>
   </Navbar>
