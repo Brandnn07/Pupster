@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navtab from "./Nav";
+import Naver from "./Naver";
 import About from "./pages/About";
 import Discover from "./pages/Discover";
 import Search from "./pages/Search";
@@ -26,7 +26,7 @@ class Pupster extends Component {
   render() {
     return (
       <div>
-        <Navtab
+        <Naver
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
